@@ -97,13 +97,14 @@ Menambahkan halaman `profile.php` dimana user bisa melihat informasi akun dan me
 
 Form login dengan validasi username dan password.
 
-> ![Halaman Login](https://github.com/tir890/Lab12Web/blob/ae21f25c4dd7301ed574c6b149d89a51ef92b5df/dashboard-lab12web.png)
+> ![Halaman Login](https://github.com/tir890/Lab12Web/blob/d2eff3f0e3601137aee0503c0dbd4edaccb4440f/login-lab12web.png)
 
 ### 2. Halaman Dashboard Admin (Setelah Login)
 
 Sidebar menampilkan menu lengkap (Data Artikel, Tambah Artikel, Profil, Logout) dan menyapa nama user.
 
-> ![Dashboard Admin]([Masukkan Link Screenshot Dashboard di sini])
+> ![Dashboard Admin](https://github.com/tir890/Lab12Web/blob/ae21f25c4dd7301ed574c6b149d89a51ef92b5df/dashboard-lab12web.png
+)
 
 ### 3. Menu Sidebar Dinamis
 
