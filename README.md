@@ -97,7 +97,7 @@ Menambahkan halaman `profile.php` dimana user bisa melihat informasi akun dan me
 
 Form login dengan validasi username dan password.
 
-> ![Halaman Login]([Masukkan Link Screenshot Login di sini])
+> ![Halaman Login](https://github.com/tir890/Lab12Web/blob/ae21f25c4dd7301ed574c6b149d89a51ef92b5df/dashboard-lab12web.png)
 
 ### 2. Halaman Dashboard Admin (Setelah Login)
 
