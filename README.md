@@ -116,7 +116,7 @@ Perbedaan tampilan sidebar saat belum login vs sudah login.
 
 Fitur untuk mengubah password admin secara aman.
 
-> ![Halaman Profil]([Masukkan Link Screenshot Profil di sini])
+> ![Halaman Profil](https://github.com/tir890/Lab12Web/blob/cd766ef3e5b69860c15195d2cbf4470ab68c336e/profile-lab12web.png)
 
 ---
 
