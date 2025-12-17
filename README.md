@@ -110,7 +110,7 @@ Sidebar menampilkan menu lengkap (Data Artikel, Tambah Artikel, Profil, Logout) 
 
 Perbedaan tampilan sidebar saat belum login vs sudah login.
 
-> ![Sidebar Dinamis]([Masukkan Link Screenshot Sidebar di sini])
+> ![Sidebar Dinamis](https://github.com/tir890/Lab12Web/blob/fb8980c567b1673a6340aee59813eb6da032a3a4/sidebar-lab12web.png)
 
 ### 4. Halaman Profil & Ganti Password
 
