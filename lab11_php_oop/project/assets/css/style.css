@@ -1,0 +1,208 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container Utama */
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header & Judul */
+header h1, h2 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Navigasi (Menu) - Khusus Praktikum 9 */
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+/* Tabel Data Barang */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+/* Gambar dalam tabel */
+table img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Tombol & Link Aksi */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tombol Tambah Barang */
+.btn-tambah {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.btn-tambah:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+/* Form Styling (Tambah & Ubah) */
+form {
+    margin-top: 20px;
+}
+
+.input {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input label {
+    width: 150px;
+    font-weight: 600;
+    color: #555;
+}
+
+.input input[type="text"],
+.input input[type="number"],
+.input select,
+.input input[type="file"] {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 400px; /* Batas lebar input agar tidak terlalu panjang */
+    font-size: 14px;
+}
+
+.input input:focus, .input select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Tombol Submit */
+.submit {
+    margin-top: 20px;
+    padding-left: 150px; /* Menyesuaikan lebar label */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Update bagian Table agar lebih rapi */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: white; /* Tambahkan background putih */
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    padding: 15px; /* Tambah padding biar lega */
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 15px; /* Tambah padding biar lega */
+    vertical-align: middle; /* Biar konten ada di tengah vertikal */
+}
+
+/* Pastikan gambar tidak terlalu gepeng */
+table img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    object-fit: contain; /* Agar gambar proporsional */
+}
